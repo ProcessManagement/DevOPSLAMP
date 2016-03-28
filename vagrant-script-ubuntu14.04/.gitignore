@@ -1,0 +1,10 @@
+## project
+#projects/
+#!projects/test/
+#!projects/setup-local/
+
+## Vagrant
+Vagrantfile
+
+## Jetbrains
+.idea/

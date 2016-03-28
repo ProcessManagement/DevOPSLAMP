@@ -1,0 +1,4 @@
+.vagrant
+.vagrant*
+.DS_Store
+vhosts/*

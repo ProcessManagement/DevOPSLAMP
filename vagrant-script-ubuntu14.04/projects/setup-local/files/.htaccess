@@ -1,0 +1,17 @@
+php_value error_log /var/www/logs/php.errors
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+</IfModule>
+
+
+#Satisfy any
+# USER
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile /var/project/.htpasswd
+#Require valid-user
+# IP
+#Require host 127.0.0.1
